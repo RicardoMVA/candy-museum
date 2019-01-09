@@ -67,3 +67,22 @@ body {
 		font-size: 0.9rem;
 	}
 }
+
+
+@media (min-width: 576px) {
+	/* this makes the images inside cards in index to be the same size */
+	.img-fluid {
+		width: 100%;
+	    height: 50vw;
+	    object-fit: cover;
+	}
+}
+
+@media (min-width: 768px) {
+	/* this makes the images inside cards in index to be the same size */
+	.img-fluid {
+		width: 100%;
+	    height: 40vw;
+	    object-fit: cover;
+	}
+}
